@@ -34,6 +34,9 @@ p{
     position: relative;  
     padding: 100px; 
 }
+.mountain{ width:65%;
+    
+}
 
 .top{
     position: absolute;
