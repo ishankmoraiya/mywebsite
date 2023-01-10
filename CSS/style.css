@@ -21,21 +21,21 @@ header {
   position: fixed;
   z-index: 2;
 }
-nav > .logo {
+header > .logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-nav > .logo > img {
+header > .logo > img {
   width: 40px;
 }
-nav > .logo > h3 {
+header > .logo > h3 {
   font-family: "Charm", cursive;
   margin-left: 10px;
   margin-top: -1px;
   color: var(--secondary-color);
 }
-nav > .logo > span {
+header > .logo > span {
   font-family: "Charm", cursive;
   margin-left: 5px;
   font-weight: bold;
@@ -44,7 +44,7 @@ nav > .logo > span {
   margin-bottom: 2px;
   font-size: 1.2rem;
 }
-nav > ul {
+header > ul {
   flex: 1;
   display: flex;
   justify-content: center;
