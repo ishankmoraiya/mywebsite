@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm&display=swap");
 body
 {
     color: #40514E;;
@@ -7,7 +8,6 @@ body
 
     
 }
-@import url("https://fonts.googleapis.com/css2?family=Charm&display=swap");
 header {
   width: 100%;
   display: flex;
@@ -21,11 +21,13 @@ header {
   position: fixed;
   z-index: 2;
 }
+
 header > .logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 header > .logo > img {
   width: 40px;
 }
@@ -35,6 +37,7 @@ header > .logo > h3 {
   margin-top: -1px;
   color: var(--secondary-color);
 }
+
 header > .logo > span {
   font-family: "Charm", cursive;
   margin-left: 5px;
@@ -44,12 +47,15 @@ header > .logo > span {
   margin-bottom: 2px;
   font-size: 1.2rem;
 }
+
 header > ul {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
+}
+
 h1{
     font-size: 3.62rem;
     margin-top: 50px;
