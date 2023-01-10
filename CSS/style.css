@@ -13,7 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem;
   background: rgba(255, 255, 255, 0.28);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -28,14 +28,10 @@ header > .logo {
   align-items: center;
 }
 
-header > .logo > img {
-  width: 40px;
-}
 header > .logo > h3 {
   font-family: "Charm", cursive;
   margin-left: 10px;
-  margin-top: -1px;
-  color: var(--secondary-color);
+  color: #313bac;
 }
 
 header > .logo > span {
@@ -56,23 +52,23 @@ header > ul {
   list-style: none;
 }
 
-header > ul>li {
+header > ul > li {
 	 margin: 0 1rem;
 	 cursor: pointer;
 	 flex-direction: column;
 }
  header > ul > li .active {
 	 font-weight: bold;
-	 background-color: #fdccf1 75;
+	 background-color: #fdccf175;
 	 color: #fbace8;
 	 padding: 2px 5px;
 	 border-radius: 5px;
 }
 header > ul > li .active:hover {
-	 color: #cdcdcd;
+	 color: rgb(205, 205, 205);
 }
 header > ul > li a {
-	 color: var(--gray-color);
+	 color: #6b7688;
 	 text-decoration: none;
 	 font-weight: bold;
 	 flex-direction: column;
@@ -90,31 +86,31 @@ header > ul > li a:after {
 	 transition: 0.3s all;
 }
  header > ul > li a:hover {
-	 color: var(--secondary-color);
+	 color: #313bac;
 }
  header > ul > li a:hover:after {
 	 width: 100%;
 }
 header > ul > li:hover div {
-	 background: var(--secondary-color);
+	 background: #313bac;
 }
 header > ul > li:nth-child(2) .active {
 	 color: goldenrod;
-	 background-color: #daa520 47;
+	 background-color: #daa52047;
 }
 header > ul > li:nth-child(2) .active:hover {
 	 color: #cdcdcd;
 }
 header > ul > li:nth-child(3) .active {
 	 color: #ff0157;
-	 background-color: #ff0157 47;
+	 background-color: #ff015747;
 }
 header > ul > li:nth-child(3) .active:hover {
 	 color: #cdcdcd;
 }
 header > ul > li:nth-child(4) .active {
 	 color: #25a71a;
-	 background-color: #3fa037 4f;
+	 background-color: #3fa0374f;
 }
 header > ul > li:nth-child(4) .active:hover {
 	 color: #cdcdcd;
@@ -128,7 +124,7 @@ header > ul > li:nth-child(5) .active:hover {
 }
 header > ul > li:nth-child(6) .active {
 	 color: #ff0157;
-	 background-color: #ff0157 47;
+	 background-color: #ff015747;
 }
 header > ul > li:nth-child(6) .active:hover {
 	 color: #cdcdcd;
